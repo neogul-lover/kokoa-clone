@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@100;400;700&family=Jua&display=swap');@import "reset.css";
+@import "reset.css";
+@import "variables.css";
+
+@import "components/statusbar.css";
+@import "components/nav-bar.css";
+@import "components/user-comp.css";
+@import "screen/login.css";
+@import "components/screen-header.css";
+@import "components/alt-screen-header.css";
+@import "screen/friends.css";
+@import "find.css";
+@import "components/icon-row.css";
+@import "screen/screen.css";
+@import "screen/more.css";
+@import "screen/settings.css";
+@import "screen/chat.css";
+
+body {
+    color: #2d363e;
+
+}
+.main-screen {
+    padding: 0px var(--horizontal-space);
+
+}

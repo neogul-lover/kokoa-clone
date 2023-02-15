@@ -1,0 +1,35 @@
+.more-sugg {
+    border-top: var(--border);
+    padding: 25px 0;
+}
+.more-sugg__title {
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.more-sugg__icons {
+    display: flex;
+    padding: 0 10px;
+    align-items: center;
+}
+.more-sugg__icon {
+  margin-right: 25px;
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.more-sugg__icon-img {
+    width: 60px;height: 60px;
+    border-radius: 10px;
+    display:flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.more-sugg__icon-txt {
+    font-size: 14px;
+}
+#topp {
+    border-top: var(--border);
+    margin: 20px 0;
+}
